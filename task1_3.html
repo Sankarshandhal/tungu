@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+           scroll-behavior: smooth;
+        }
+  
+        nav {
+           width: 100%;
+           background-color: darkturquoise;
+           position: fixed;
+        }
+  
+        ul {
+           display: flex;
+           justify-content: space-evenly;
+           
+        }
+  
+        nav li {
+           display: flex;
+           text-decoration: none;        
+        }
+  
+        li a {
+           text-decoration: none;
+           padding: 25px;
+           color: rgb(121, 19, 19);
+           font-size: 20px;
+           font-weight: 600;
+        }
+  
+        #icon{
+           width: 60px;
+           height: 60px;
+           border-radius: 50%;
+           display: flex;
+           margin-top: 8px;
+        }
+  
+        img{
+           width: 100%;
+        }
+  
+        marquee{
+           background-color: dimgray;
+           color: white;
+           padding: 30px;
+           font-size: 30px;
+        }
+     </style>
+</head>
+<body>
+    <nav>
+        <ul>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbMdqDXsTCM7F4xvdM8Ls4GJ5Bjd4vbRDiwmhBqVZRJw&s" alt="" id="icon">
+           <li><a href="#animal">Animal</a></li>
+           <li><a href="#birds">Birds</a></li>
+           <li><a href="#fish">Fish</a></li>
+        </ul>
+     </nav>
+  
+     <div id="animal">
+        <h1>Animal Names: </h1>
+        <img src="https://i.pinimg.com/originals/49/97/21/4997210b9e1271f02138d323608922ba.jpg" alt="">
+     </div>
+     <div id="birds">
+        <h1>Birds Names:</h1>
+        <img src="https://i.pinimg.com/originals/91/f5/6f/91f56f718ab181fb8c5bb02fcd0714e3.jpg" alt="">
+     </div>
+     <div id="fish">
+        <h1>Fish Names:</h1>
+        <img src="https://images.examples.com/wp-content/uploads/2024/02/Most-Popular-Fishes-in-the-World.png" alt="">
+     </div>
+     <footer>
+        <marquee behavior="" direction="right">Thank You Made with &#x1F9E1  by Sankarshan</marquee>
+     </footer>
+</body>
+</html>
